@@ -109,31 +109,7 @@ export const skills = [
       },
     ],
   },
-  {
-    title: 'Android',
-    skills: [
-      {
-        name: 'Java',
-        image:
-          'https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg',
-      },
-      {
-        name: 'Kotlin',
-        image:
-          'https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg',
-      },
-      {
-        name: 'XML',
-        image:
-          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBMw6_RdwKQ9bDFfnKDX1iwMl4bVJEvd9PP53XuIw&s',
-      },
-      {
-        name: 'Android Studio',
-        image:
-          'https://developer.android.com/static/studio/images/new-studio-logo-1_1920.png',
-      },
-    ],
-  },
+
   {
     title: 'Others',
     skills: [
@@ -289,7 +265,7 @@ export const experiences = [
 export const education = [
   {
     id: 0,
-    img: 'https://media.licdn.com/dms/image/C560BAQE4UC9Z_k3c7A/company-logo_200_200/0/1579422507409?e=1692230400&v=beta&t=HJssPsrwwkAJAsvFiVIYPdM8GzUuuSK5YlATKgLx3Bc',
+    img: 'data:image/jpeg;base64,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',
     school: 'Kalinga Institute of Industrial Technology, Bhubaneswar',
     date: 'Oct 2021 - Sep 2025',
     grade: '8.71 CGPA',
