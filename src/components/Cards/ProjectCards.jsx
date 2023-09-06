@@ -5,14 +5,17 @@ const Button = styled.button`
   display: none;
   width: 100%;
   padding: 10px;
-  background-color: ${({ theme }) => theme.white};
-  color: ${({ theme }) => theme.text_black};
+  background-color: ${({ theme }) => theme.primary};
+  color: ${({ theme }) => theme.text_primary};
   font-size: 14px;
-  font-weight: 700;
+  font-weight: 500;
   border: none;
   border-radius: 10px;
   cursor: pointer;
   transition: all 0.8s ease-in-out;
+  &:hover {
+    background-color: ${({ theme }) => theme.primary + 99};
+  }
 `
 const Card = styled.div`
   width: 330px;

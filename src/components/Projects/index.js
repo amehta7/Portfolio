@@ -183,6 +183,7 @@ const Projects = ({ openModal, setOpenModal }) => {
           {toggle === 'all'
             ? projects.map((project) => (
                 <ProjectCards
+                  key={project.id}
                   project={project}
                   openModal={openModal}
                   setOpenModal={setOpenModal}
