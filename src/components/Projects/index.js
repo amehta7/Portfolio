@@ -131,51 +131,81 @@ const Projects = ({ openModal, setOpenModal }) => {
             </ToggleButton>
           )}
           <Divider />
-          {toggle === 'web app' ? (
+          {toggle === 'react app' ? (
             <ToggleButton
               active
-              value='web app'
-              onClick={() => setToggle('web app')}
+              value='react app'
+              onClick={() => setToggle('react app')}
             >
-              WEB APP'S
+              REACT APP
             </ToggleButton>
           ) : (
-            <ToggleButton value='web app' onClick={() => setToggle('web app')}>
-              WEB APP'S
+            <ToggleButton
+              value='react app'
+              onClick={() => setToggle('react app')}
+            >
+              REACT APP
             </ToggleButton>
           )}
           <Divider />
-          {toggle === 'android app' ? (
+          {toggle === 'mern app' ? (
             <ToggleButton
               active
-              value='android app'
-              onClick={() => setToggle('android app')}
+              value='mern app'
+              onClick={() => setToggle('mern app')}
             >
-              ANDROID APP'S
+              MERN APP
             </ToggleButton>
           ) : (
             <ToggleButton
-              value='android app'
-              onClick={() => setToggle('android app')}
+              value='mern app'
+              onClick={() => setToggle('mern app')}
             >
-              ANDROID APP'S
+              MERN APP
             </ToggleButton>
           )}
           <Divider />
-          {toggle === 'machine learning' ? (
+          {toggle === 'api' ? (
+            <ToggleButton active value='api' onClick={() => setToggle('api')}>
+              BACKEND API
+            </ToggleButton>
+          ) : (
+            <ToggleButton value='api' onClick={() => setToggle('api')}>
+              BACKEND API
+            </ToggleButton>
+          )}
+          <Divider />
+          {toggle === 'typescript app' ? (
             <ToggleButton
               active
-              value='machine learning'
-              onClick={() => setToggle('machine learning')}
+              value='typescript app'
+              onClick={() => setToggle('typescript app')}
             >
-              MACHINE LEARNING
+              TYPESCRIPT APP
             </ToggleButton>
           ) : (
             <ToggleButton
-              value='machine learning'
-              onClick={() => setToggle('machine learning')}
+              value='typescript app'
+              onClick={() => setToggle('typescript app')}
             >
-              MACHINE LEARNING
+              TYPESCRIPT APP
+            </ToggleButton>
+          )}
+          <Divider />
+          {toggle === 'nextjs app' ? (
+            <ToggleButton
+              active
+              value='nextjs app'
+              onClick={() => setToggle('nextjs app')}
+            >
+              NEXT.JS APP
+            </ToggleButton>
+          ) : (
+            <ToggleButton
+              value='nextjs app'
+              onClick={() => setToggle('nextjs app')}
+            >
+              NEXT.JS APP
             </ToggleButton>
           )}
         </ToggleButtonGroup>
