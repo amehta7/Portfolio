@@ -1,6 +1,16 @@
 import dashboardImg from '../components/images/dashboard.jpg'
 import vanImg from '../components/images/vanlife.jpg'
 import chatImg from '../components/images/chatImg.jpg'
+import netflixImg from '../components/images/netflixImg.jpg'
+import ticket2 from '../components/images/ticket2.jpg'
+//import ticket1 from '../components/images/ticket1.jpg'
+import eventImg from '../components/images/eventImg.jpg'
+import eshopMernImg from '../components/images/eshop_mernImg.jpg'
+import tinyImg from '../components/images/tinythoughtsImg.jpg'
+import gitImg from '../components/images/gitImg.jpg'
+import comfyImg from '../components/images/comfyImg.jpg'
+import jobImg from '../components/images/jobImg.jpg'
+import meetupImg from '../components/images/meetupImg.jpg'
 
 export const Bio = {
   name: 'Ami Mehta',
@@ -300,6 +310,26 @@ export const education = [
 
 export const projects = [
   {
+    id: 14,
+    title: 'Jobster',
+    description:
+      'Using this app, you can manage your jobs list in very easy manner. You can add, update and delete your jobs. Also you can view all your jobs and filter them using different job types, status, etc.',
+    image: jobImg,
+    tags: [
+      'React Js',
+      'Redux',
+      'Axios',
+      'Styled-Components',
+      'Recharts',
+      'Moment',
+      'React-icons',
+      'React-Toastify',
+    ],
+    category: 'react app',
+    github: 'https://github.com/amehta7/Jobster_App',
+    webapp: 'https://starlit-capybara-45c670.netlify.app/',
+  },
+  {
     id: 0,
     title: 'Admin Dashboard',
     description:
@@ -317,8 +347,116 @@ export const projects = [
     github: 'https://github.com/amehta7/Admin_Dashboard',
     webapp: 'https://admin-dashboard-react-mui.netlify.app/',
   },
+
+  {
+    id: 6,
+    title: 'SocialChat',
+    description:
+      'A MERN stack App, where you can connect with friends, follow or unfollow friends, share a new post, etc just like Facebook.',
+    image: chatImg,
+    tags: [
+      'React Js',
+      'MongoDb',
+      'Node Js',
+      'Express Js',
+      'Material UI',
+      'Axios',
+    ],
+    category: 'mern app',
+    github: 'https://github.com/amehta7/SocialChat',
+  },
+  {
+    id: 7,
+    title: 'Netflix-clone-App',
+    description: 'A Netflix-clone-App.',
+    image: netflixImg,
+    tags: [
+      'React Js',
+      'MongoDb',
+      'Node Js',
+      'Express Js',
+      'Firebase',
+      'Styled-components',
+      'Axios',
+    ],
+    category: 'mern app',
+    github: 'https://github.com/amehta7/Netflix-clone-App',
+  },
+  {
+    id: 8,
+    title: 'TicketTracker',
+    description: 'MERN stack application to manage the ticket services.',
+    image: ticket2,
+    tags: [
+      'React Js',
+      'MongoDb',
+      'Node Js',
+      'Express Js',
+      'Redux',
+      'Axios',
+      'React-Toastify',
+    ],
+    category: 'mern app',
+    github: 'https://github.com/amehta7/TicketTracker',
+  },
+  {
+    id: 10,
+    title: 'Eshop',
+    description: 'MERN stack application.',
+    image: eshopMernImg,
+    tags: [
+      'React Js',
+      'MongoDb',
+      'Node Js',
+      'Express Js',
+      'JWT',
+      'Redux',
+      'Material UI',
+      'FetchAPI',
+      'React-Toastify',
+    ],
+    category: 'mern app',
+    github: 'https://github.com/amehta7/Eshop_App_Frontend',
+  },
+  {
+    id: 11,
+    title: 'ComfySloth',
+    description:
+      'Check out our products for the very best in unique or custom, handmade pieces from our shops.',
+    image: comfyImg,
+    tags: [
+      'React Js',
+      'Axios',
+      'Styled-Components',
+      'Auth0',
+      'stripe',
+      'React-icons',
+    ],
+    category: 'react app',
+    github: 'https://github.com/amehta7/ComfySloth',
+    webapp: 'https://comfyslothapp.netlify.app/',
+  },
   {
     id: 1,
+    title: 'TinyThoughts',
+    description: 'Micro-blog application.',
+    image: tinyImg,
+    tags: [
+      'React Js',
+      'Redux',
+      'FetchAPI',
+      'MongoDb',
+      'Node Js',
+      'Express Js',
+      'JWT',
+    ],
+    category: 'react app',
+    github: 'https://github.com/amehta7/TinyThoughts',
+    webapp: 'https://tinythoughts-react.netlify.app/',
+  },
+
+  {
+    id: 13,
     title: 'VanLife',
     description: 'Create a Travel Van Rental App with React + Vite.',
     image: vanImg,
@@ -328,14 +466,31 @@ export const projects = [
     webapp: 'https://vanlifereactrouter.netlify.app/',
   },
   {
-    id: 6,
-    title: 'SocialChat',
+    id: 12,
+    title: 'Search_GithubUser',
     description:
-      'A MERN stack App, where you can connect with friends, follow or unfollow friends, share a new post, etc just like Facebook.',
-    image: chatImg,
-    tags: ['React Js', 'MongoDb', 'Node Js', 'Express Js', 'Material UI'],
+      "In this project, you can search any github user and view user's info like repos, followers, etc.",
+    image: gitImg,
+    tags: [
+      'React Js',
+      'Axios',
+      'Styled-Components',
+      'Auth0',
+      'Fusioncharts',
+      'React-icons',
+    ],
+    category: 'react app',
+    github: 'https://github.com/amehta7/Search_GithubUser',
+    webapp: 'https://searchgithubusers-react.netlify.app/',
+  },
+  {
+    id: 9,
+    title: 'Events_App',
+    description: 'MERN stack application to manage the event services.',
+    image: eventImg,
+    tags: ['React Js', 'MongoDb', 'Node Js', 'Express Js', 'JWT'],
     category: 'mern app',
-    github: 'https://github.com/amehta7/SocialChat',
+    github: 'https://github.com/amehta7/MERN_Events_App',
   },
   {
     id: 2,
@@ -367,6 +522,15 @@ export const projects = [
     tags: ['TypeScript', 'Node Js', 'Express Js'],
     category: 'api',
     github: 'https://github.com/amehta7/Todo_App',
+  },
+  {
+    id: 15,
+    title: 'Meetups',
+    description: 'You can view different meetups and add a new meetup.',
+    image: meetupImg,
+    tags: ['Next JS', 'MongoDb', 'React'],
+    category: 'nextjs app',
+    github: 'https://github.com/amehta7/NextJS_React_Meetups',
   },
   {
     id: 5,
