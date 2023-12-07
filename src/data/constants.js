@@ -11,6 +11,12 @@ import gitImg from '../components/images/gitImg.jpg'
 import comfyImg from '../components/images/comfyImg.jpg'
 import jobImg from '../components/images/jobImg.jpg'
 import meetupImg from '../components/images/meetupImg.jpg'
+import bookNStayImg from '../components/images/bookNStayImg.jpg'
+import pizzaHouseImg from '../components/images/pizza_house.jpg'
+import nextJSBlogImg from '../components/images/NextJSBlogApp.jpg'
+import LyricalImg from '../components/images/LyricalImg.jpg'
+import GraphqlChatImg from '../components/images/graphqlChatImg.jpg'
+import JobBoardImg from '../components/images/JobBoardImage.jpg'
 
 export const Bio = {
   name: 'Ami Mehta',
@@ -310,6 +316,43 @@ export const education = [
 
 export const projects = [
   {
+    id: 17,
+    title: 'Pizza House',
+    description:
+      'Responsive pizza restaurant food ordering app UI design using React and Next.js in addition to Admin dashboard functionality.',
+    image: pizzaHouseImg,
+    tags: [
+      'React Js',
+      'Next.js',
+      'MongoDb',
+      'Axios',
+      'Cloudinary',
+      'React-Paypal-JS',
+    ],
+    category: 'nextjs app',
+    github: 'https://github.com/amehta7/Pizza-House',
+  },
+  {
+    id: 16,
+    title: 'BookNStay',
+    description:
+      'A MERN stack App, From take off to landing and everything in between - book your whole trip with us. Best Price Guarantee. Great Availability. Get Instant Confirmation. Read Real Guest Reviews just like Booking.com. Built client side app with backend app in addition to Admin dashboard functionality.',
+    image: bookNStayImg,
+    tags: [
+      'React Js',
+      'MongoDb',
+      'Node Js',
+      'Express Js',
+      'Material UI',
+      'Axios',
+      'SASS',
+      'Recharts',
+      'Cloudinary',
+    ],
+    category: 'mern app',
+    github: 'https://github.com/amehta7/BookNStay',
+  },
+  {
     id: 14,
     title: 'Jobster',
     description:
@@ -364,6 +407,36 @@ export const projects = [
     ],
     category: 'mern app',
     github: 'https://github.com/amehta7/SocialChat',
+  },
+  {
+    id: 18,
+    title: 'Blog App',
+    description:
+      'Built the application to manage posts using NextJS, React, MongoDB.',
+    image: nextJSBlogImg,
+    tags: ['React Js', 'Next.js', 'MongoDb'],
+    category: 'nextjs app',
+    github: 'https://github.com/amehta7/NextJS_Blog_App',
+    webapp: 'https://next-js-blog-qi7casiez-a-b-patels-projects.vercel.app/',
+  },
+  {
+    id: 19,
+    title: 'Lyrical App',
+    description:
+      'Built the application to manage songs in which user can view the all songs, add songs, add lyrics to any song and like the lyric with React, GraphQL, Node.js, Express.js, MongoDB.',
+    image: LyricalImg,
+    tags: [
+      'React Js',
+      'Node Js',
+      'Express Js',
+      'GraphQL',
+      'MongoDb',
+      'Axios',
+      'Apollo-Client',
+      'Express-Graphql',
+    ],
+    category: 'graphql app',
+    github: 'https://github.com/amehta7/Lyrical-App',
   },
   {
     id: 7,
@@ -482,6 +555,46 @@ export const projects = [
     category: 'react app',
     github: 'https://github.com/amehta7/Search_GithubUser',
     webapp: 'https://searchgithubusers-react.netlify.app/',
+  },
+  {
+    id: 20,
+    title: 'Job Board',
+    description:
+      'Built application in which user can view the all jobs, add, update and delete the job with React, GraphQL, Node.js, Express.js, MySQL. It uses Apollo Server with Express, and GraphQL-Request and Apollo Client as GraphQL clients. The application is used to explain queries, mutations, custom object types, authentication, etc.',
+    image: JobBoardImg,
+    tags: [
+      'React Js',
+      'Node Js',
+      'Express Js',
+      'GraphQL',
+      'MySQL',
+      'Apollo-Server',
+      'Graphql-Request',
+      'Apollo-Client',
+      'Express-Graphql',
+    ],
+    category: 'graphql app',
+    github: 'https://github.com/amehta7/JobBoard',
+  },
+  {
+    id: 21,
+    title: 'GraphQL Chat',
+    description:
+      'Built application in which user can chat with friends with React, GraphQL, Node.js, Express.js, MySQL. It uses Apollo Server with Express, and GraphQL-Request and Apollo Client as GraphQL clients. The application is used to explain queries, mutations, custom object types, authentication, etc. It shows how to use subscriptions with Apollo Server for Express, Apollo Client, and GraphQL-WS.',
+    image: GraphqlChatImg,
+    tags: [
+      'React Js',
+      'Node Js',
+      'Express Js',
+      'GraphQL',
+      'MySQL',
+      'Apollo-Server',
+      'Graphql-Subscriptions',
+      'Apollo-Client',
+      'Express-Graphql',
+    ],
+    category: 'graphql app',
+    github: 'https://github.com/amehta7/GraphQL-Chat',
   },
   {
     id: 9,

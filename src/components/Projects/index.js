@@ -208,6 +208,23 @@ const Projects = ({ openModal, setOpenModal }) => {
               NEXT.JS APP
             </ToggleButton>
           )}
+          <Divider />
+          {toggle === 'graphql app' ? (
+            <ToggleButton
+              active
+              value='graphql app'
+              onClick={() => setToggle('graphql app')}
+            >
+              GRAPHQL APP
+            </ToggleButton>
+          ) : (
+            <ToggleButton
+              value='graphql app'
+              onClick={() => setToggle('graphql app')}
+            >
+              GRAPHQL APP
+            </ToggleButton>
+          )}
         </ToggleButtonGroup>
         <CardContainer>
           {toggle === 'all'
