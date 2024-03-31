@@ -6,8 +6,8 @@ import TimelineSeparator from '@mui/lab/TimelineSeparator'
 import TimelineConnector from '@mui/lab/TimelineConnector'
 import TimelineContent from '@mui/lab/TimelineContent'
 import TimelineDot from '@mui/lab/TimelineDot'
-import { education, experiences } from '../../data/constants'
-import EducationCard from '../Cards/EducationCard'
+import { experiences } from '../../data/constants'
+import ExperienceCard from '../Cards/ExperienceCard'
 
 const Container = styled.div`
   display: flex;
@@ -16,8 +16,8 @@ const Container = styled.div`
   position: relative;
   z-index: 1;
   align-items: center;
-  padding: 0px 0px 60px 0px;
-  @media only screen and (max-width: 960px) {
+  padding: 40px 0px 80px 0px;
+  @media screen and (max-width: 960px) {
     padding: 0px;
   }
 `
@@ -30,9 +30,9 @@ const Wrapper = styled.div`
   flex-direction: column;
   width: 100%;
   max-width: 1350px;
-  padding: 40px 0px 0px 0px;
+  padding: 80px 0;
   gap: 12px;
-  @media only screen and (max-width: 960px) {
+  @media screen and (max-width: 960px) {
     flex-direction: column;
   }
 `
@@ -43,7 +43,7 @@ const Title = styled.div`
   font-weight: 600;
   margin-top: 20px;
   color: ${({ theme }) => theme.text_primary};
-  @media only screen and (max-width: 768px) {
+  @media screen and (max-width: 768px) {
     margin-top: 12px;
     font-size: 32px;
   }
@@ -54,7 +54,7 @@ const Desc = styled.div`
   text-align: center;
   max-width: 600px;
   color: ${({ theme }) => theme.text_secondary};
-  @media only screen and (max-width: 768px) {
+  @media screen and (max-width: 768px) {
     margin-top: 12px;
     font-size: 16px;
   }
@@ -69,30 +69,30 @@ const TimelineSection = styled.div`
   align-items: center;
   justify-content: center;
   gap: 12px;
-  @media only screen and (max-width: 660px) {
-    align-items: end;
-  }
 `
 
-const Education = () => {
+const Experience = () => {
   return (
-    <Container id='education'>
+    <Container id='experience'>
       <Wrapper>
-        <Title>Education</Title>
-        <Desc>My educational details are as follows.</Desc>
+        <Title>Experience</Title>
+        {/*<Desc>
+          My work experience as a software engineer and working on different
+          companies and projects.
+        </Desc>*/}
         <TimelineSection>
           <Timeline>
-            {education.map((education, index) => (
-              <TimelineItem key={education.id}>
-                <TimelineContent sx={{ py: '12px', px: 2 }}>
-                  <EducationCard education={education} />
-                </TimelineContent>
+            {experiences.map((experience, index) => (
+              <TimelineItem key={index}>
                 <TimelineSeparator>
                   <TimelineDot variant='outlined' color='secondary' />
-                  {index !== experiences.length && (
+                  {index !== experiences.length - 1 && (
                     <TimelineConnector style={{ background: '#854CE6' }} />
                   )}
                 </TimelineSeparator>
+                <TimelineContent sx={{ py: '12px', px: 2 }}>
+                  <ExperienceCard experience={experience} />
+                </TimelineContent>
               </TimelineItem>
             ))}
           </Timeline>
@@ -102,4 +102,4 @@ const Education = () => {
   )
 }
 
-export default Education
+export default Experience
