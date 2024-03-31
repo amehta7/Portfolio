@@ -117,8 +117,8 @@ const Projects = ({ openModal, setOpenModal }) => {
       <Wrapper>
         <Title>Projects</Title>
         <Desc>
-          I have worked on a wide range of projects. From web apps to android
-          apps. Here are some of my projects.
+          I have worked on a wide range of projects. Here are some of my
+          projects.
         </Desc>
         <ToggleButtonGroup>
           {toggle === 'all' ? (
@@ -128,23 +128,6 @@ const Projects = ({ openModal, setOpenModal }) => {
           ) : (
             <ToggleButton value='all' onClick={() => setToggle('all')}>
               All
-            </ToggleButton>
-          )}
-          <Divider />
-          {toggle === 'react app' ? (
-            <ToggleButton
-              active
-              value='react app'
-              onClick={() => setToggle('react app')}
-            >
-              REACT APP
-            </ToggleButton>
-          ) : (
-            <ToggleButton
-              value='react app'
-              onClick={() => setToggle('react app')}
-            >
-              REACT APP
             </ToggleButton>
           )}
           <Divider />
@@ -165,6 +148,24 @@ const Projects = ({ openModal, setOpenModal }) => {
             </ToggleButton>
           )}
           <Divider />
+          {toggle === 'react app' ? (
+            <ToggleButton
+              active
+              value='react app'
+              onClick={() => setToggle('react app')}
+            >
+              REACT APP
+            </ToggleButton>
+          ) : (
+            <ToggleButton
+              value='react app'
+              onClick={() => setToggle('react app')}
+            >
+              REACT APP
+            </ToggleButton>
+          )}
+          <Divider />
+
           {toggle === 'api' ? (
             <ToggleButton active value='api' onClick={() => setToggle('api')}>
               BACKEND API
@@ -175,23 +176,7 @@ const Projects = ({ openModal, setOpenModal }) => {
             </ToggleButton>
           )}
           <Divider />
-          {toggle === 'typescript app' ? (
-            <ToggleButton
-              active
-              value='typescript app'
-              onClick={() => setToggle('typescript app')}
-            >
-              TYPESCRIPT APP
-            </ToggleButton>
-          ) : (
-            <ToggleButton
-              value='typescript app'
-              onClick={() => setToggle('typescript app')}
-            >
-              TYPESCRIPT APP
-            </ToggleButton>
-          )}
-          <Divider />
+
           {toggle === 'nextjs app' ? (
             <ToggleButton
               active
@@ -223,6 +208,23 @@ const Projects = ({ openModal, setOpenModal }) => {
               onClick={() => setToggle('graphql app')}
             >
               GRAPHQL APP
+            </ToggleButton>
+          )}
+          <Divider />
+          {toggle === 'typescript app' ? (
+            <ToggleButton
+              active
+              value='typescript app'
+              onClick={() => setToggle('typescript app')}
+            >
+              TYPESCRIPT APP
+            </ToggleButton>
+          ) : (
+            <ToggleButton
+              value='typescript app'
+              onClick={() => setToggle('typescript app')}
+            >
+              TYPESCRIPT APP
             </ToggleButton>
           )}
         </ToggleButtonGroup>

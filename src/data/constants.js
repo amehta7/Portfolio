@@ -40,7 +40,7 @@ export const Bio = {
 
 export const skills = [
   {
-    title: 'Frontend',
+    title: 'Frontend Technologies',
     skills: [
       {
         name: 'React Js',
@@ -71,6 +71,12 @@ export const skills = [
           'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png',
       },
       {
+        name: 'Tailwind CSS',
+        image:
+          'https://static-00.iconduck.com/assets.00/tailwind-css-icon-2048x1229-u8dzt4uh.png',
+      },
+
+      {
         name: 'JavaScript',
         image:
           'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png',
@@ -85,20 +91,20 @@ export const skills = [
           'https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png',
       },
 
-      // {
-      //   name: 'Next Js',
-      //   image:
-      //     'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACTklEQVR4Ab1XAaQqURB9DyohSykREpRIQSAlBCoECKUFCSRCBBEAaSEABQEoCIEASCwAUICALgCo83do0//9v819XX845O7VnDkzOzP7JWGaBd3C3IJpQVjAHeJ+Rs9a97vKLGrBsB1KgMhEP3FMUUwt4ENMfxr1yQIU4SSjRkbeOZtERmHk6pXQVDlnkHh9S+QLTm1hkiz4n/gzFQuny9FoFLquE+i34x+n02k0m00UCoV3BIzn3MMJrVYLtp1OJ0cS/X4f5/MZhmG8IyDsWtDfEaDIn2232/3zbrvdxuFwwGg04qRBt+VnETBNE0IIkE2n07/erdfrWK/X6Ha73Hb9ZXII3G43ivy3dNRqtZe7lUoFs9mM6oBDwCQCgquALT1FT3a5XF7qIZ/PYzgcolqtcggIIgBZAgRKB6lCRalp2uM8k8mAVMrlchwC+DEBipycE4n5fP44j8ViKJVKSCaTbAJCpgaez4vFIsjoWa/XA50FAgEkEgmEw2F2CkxZBZ5Br5tt1ITcbjd8Ph88Hg+7CBefECCsVitS4aVJcV9D/VMCVITk/Hq9YrPZyBBo2a1YMGvAcQYcj0cCtWMugcdYNhjDiBrP25mx3++x3W6RzWZZ8isfxzQLlsslJpMJpYY5jhkqcOH1ejEYDDAej9FoNOByuZxGsfqVzC7KTqcDSkkqleKsZOqX0mAwiHK5DGrJfr+fs5SqX8sjkQji8ThCoRC+v78Za7l6JagrUh3YkUuZpqgwDaecc9VYSDoV5Fg+at7n+eLN57kuE/EvzHr/Kvs31aYAAAAASUVORK5CYII=',
-      // },
-      // {
-      //   name: 'TypeScript',
-      //   image:
-      //     'data:image/png;base64,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',
-      // },
+      {
+        name: 'Next Js',
+        image:
+          'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACTklEQVR4Ab1XAaQqURB9DyohSykREpRIQSAlBCoECKUFCSRCBBEAaSEABQEoCIEASCwAUICALgCo83do0//9v819XX845O7VnDkzOzP7JWGaBd3C3IJpQVjAHeJ+Rs9a97vKLGrBsB1KgMhEP3FMUUwt4ENMfxr1yQIU4SSjRkbeOZtERmHk6pXQVDlnkHh9S+QLTm1hkiz4n/gzFQuny9FoFLquE+i34x+n02k0m00UCoV3BIzn3MMJrVYLtp1OJ0cS/X4f5/MZhmG8IyDsWtDfEaDIn2232/3zbrvdxuFwwGg04qRBt+VnETBNE0IIkE2n07/erdfrWK/X6Ha73Hb9ZXII3G43ivy3dNRqtZe7lUoFs9mM6oBDwCQCgquALT1FT3a5XF7qIZ/PYzgcolqtcggIIgBZAgRKB6lCRalp2uM8k8mAVMrlchwC+DEBipycE4n5fP44j8ViKJVKSCaTbAJCpgaez4vFIsjoWa/XA50FAgEkEgmEw2F2CkxZBZ5Br5tt1ITcbjd8Ph88Hg+7CBefECCsVitS4aVJcV9D/VMCVITk/Hq9YrPZyBBo2a1YMGvAcQYcj0cCtWMugcdYNhjDiBrP25mx3++x3W6RzWZZ8isfxzQLlsslJpMJpYY5jhkqcOH1ejEYDDAej9FoNOByuZxGsfqVzC7KTqcDSkkqleKsZOqX0mAwiHK5DGrJfr+fs5SqX8sjkQji8ThCoRC+v78Za7l6JagrUh3YkUuZpqgwDaecc9VYSDoV5Fg+at7n+eLN57kuE/EvzHr/Kvs31aYAAAAASUVORK5CYII=',
+      },
+      {
+        name: 'TypeScript',
+        image:
+          'data:image/png;base64,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',
+      },
     ],
   },
   {
-    title: 'Backend',
+    title: 'Backend Technologies',
     skills: [
       {
         name: 'Node Js',
@@ -113,6 +119,11 @@ export const skills = [
         name: 'RESTful API',
         image:
           'https://icon2.cleanpng.com/20180420/oaw/kisspng-computer-icons-application-programming-interface-r-5ad9d0cf31b7c7.5676330415242242072037.jpg',
+      },
+      {
+        name: 'GraphQL',
+        image:
+          'https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/GraphQL_Logo.svg/1200px-GraphQL_Logo.svg.png',
       },
 
       {
@@ -142,18 +153,17 @@ export const skills = [
       {
         name: 'Postman',
         image:
-          'https://camo.githubusercontent.com/93b32389bf746009ca2370de7fe06c3b5146f4c99d99df65994f9ced0ba41685/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676574706f73746d616e2f676574706f73746d616e2d69636f6e2e737667',
+          'data:image/png;base64,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',
       },
     ],
   },
 
   {
-    title: 'Others',
+    title: 'Other Tools and Technologies',
     skills: [
       {
         name: 'Git',
-        image:
-          'https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667',
+        image: 'https://avatars.githubusercontent.com/u/18133?s=280&v=4',
       },
       {
         name: 'GitHub',
@@ -192,105 +202,42 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: 'https://media.licdn.com/dms/image/D560BAQFDUKPSU8P0Lw/company-logo_200_200/0/1687947132305?e=1698278400&v=beta&t=cBF3SdszRLspmyvV-rHa1y4tdj_hjjivH7Xy0Z7kOD8',
-    role: 'DevOps & Fullstack Engineering Intern',
-    company: 'Flipr Inovations Pvt. Ltd.',
-    date: 'Aug 2023 - July 2023',
+    role: 'Assistant Manager',
+    company: 'Axis Bank',
+    date: 'Nov 2016 - May 2021',
     desc: 'Working on Flipr Platforms, managing DevOps, and streamlining the process with automation.',
-    skills: [
-      'Docker',
-      'Terraform',
-      'AWS',
-      'EC2',
-      'Portainer',
-      'Nginx',
-      'JavaScript',
-      'TypeScript',
-      'Node Js',
-      ' Next Js',
-    ],
+    skills: ['Team Leader', 'Customer Relationship'],
     doc: 'https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ',
   },
   {
-    id: 0,
-    img: 'https://media.licdn.com/dms/image/C560BAQFQb9_Lb3bZug/company-logo_200_200/0/1644414857251?e=1693440000&v=beta&t=7WqhIiUCg_0otFDwWn-O_SP-Z4Ftoe4be1WlnjYoESc',
-    role: 'Frontend Engineer Intern',
-    company: 'Neurobit',
-    date: 'June 2023 - Present',
-    desc: 'Working on the frontend of the web application using ReactJS, Redux, and Material UI.',
-    skills: [
-      'ReactJS',
-      'Redux',
-      'NodeJs',
-      'Material UI',
-      'HTML',
-      'CSS',
-      'JavaScript',
-    ],
+    id: 1,
+    role: 'Software Developer',
+    company: 'Theorist World',
+    date: 'May 2015 - Oct 2016',
+    desc: 'Developed and maintained responsive and visually appealing web applications using HTML5, CSS3, and JavaScript, ensuring cross-browser compatibility and accessibility.',
+    skills: ['HTML', 'CSS', 'JavaScript'],
     doc: 'https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/Screenshot%20from%202023-05-28%2023-20-46.png?alt=media&token=5570f995-e8f4-4f12-bb2f-73bcf4b20730',
+  },
+]
+
+export const certificates = [
+  {
+    id: 0,
+    role: 'Assistant Manager',
+    company: 'Axis Bank',
+    date: 'Nov 2016 - May 2021',
+    desc: 'Working on Flipr Platforms, managing DevOps, and streamlining the process with automation.',
+    skills: ['Team Leader', 'Customer Relationship'],
+    doc: 'https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ',
   },
   {
     id: 1,
-    img: 'https://media.licdn.com/dms/image/D560BAQFDUKPSU8P0Lw/company-logo_200_200/0/1687947132305?e=1698278400&v=beta&t=cBF3SdszRLspmyvV-rHa1y4tdj_hjjivH7Xy0Z7kOD8',
-    role: 'Fullstack Externship',
-    company: 'Flipr',
-    date: 'June 2023 - July 2023',
-    desc: 'Built an employee management full stack web app used Docker and deployed on AWS ec2. I was the top performer in the program.',
-    skills: [
-      'ReactJS',
-      'Redux',
-      'NodeJs',
-      'Material UI',
-      'HTML',
-      'CSS',
-      'JavaScript',
-      'Docker',
-      'AWS',
-      'MongoDB',
-    ],
-  },
-  {
-    id: 2,
-    img: 'https://media.licdn.com/dms/image/C510BAQGSObrO0QPlMQ/company-logo_200_200/0/1555704980721?e=1692835200&v=beta&t=FjOWcUVVNzqFbTmmp0iXQkv5keBQC5lxIQ7K6rmMSMQ',
-    role: 'Open Source Contributor ',
-    company: 'GirlScript Summer of Code',
-    date: 'May 2023 - Present',
-    desc: 'Contributing to different open-source projects and learn from industry experts',
-    doc: 'https://media.licdn.com/dms/image/D4D22AQGzSpgFaR4hsQ/feedshare-shrink_800/0/1684079632872?e=1687996800&v=beta&t=i0xWn_k32Oj9SxKfc6rARSbOghXD9Ge6WyEb2p2vvrc',
-  },
-  {
-    id: 3,
-    img: 'https://media.licdn.com/dms/image/D4D0BAQGfGQHEJt8gPA/company-logo_100_100/0/1666002815185?e=1692230400&v=beta&t=c4obZda4Uh9q6vOcmCbxjoSiExvbvYwEHUlgdY0tU-4',
-    role: 'Android Developer',
-    company: 'DSC KIIT',
-    date: 'Nov2021 - Present',
-    desc: 'As an Android developer at the Google Developers Student Club (GDCS), I have had the opportunity to work on exciting projects and collaborate with talented developers who share my passion for technology. Through my involvement with GDCS, I have also had the opportunity to host and participate in numerous events, including hackathons, study jams, and workshops.',
-    skills: [
-      'Leadership',
-      'Mobile Application Development',
-      'Kotlin',
-      'XML',
-      'Figma',
-    ],
-  },
-  {
-    id: 4,
-    img: 'https://media.licdn.com/dms/image/C4D0BAQH4od9HG2K7bw/company-logo_100_100/0/1661484397513?e=1692230400&v=beta&t=IW-eebE0PpFxqZ8Q3UCYYtlAokbhAEqsNePBv2Pmg18',
-    role: 'Android Developer Intern',
-    company: 'Rudraksha Welffare Foundation',
-    date: 'June 2021 - Oct 2021',
-    desc: "As an Android Developer Intern at Rudraksha Welfare Foundation from June 2021 to October 2021, I gained valuable hands-on experience in application development. During my tenure, I contributed to the development of the application's back-end cloud functions using Firebase and implemented a front-end with the MVVM structure, which was designed using Figma. I also added a one-to-one video call feature, conceptualized new features, and optimized app performance. This internship helped me enhance my skills in Android development and gave me an opportunity to work in a collaborative team environment.",
-    skills: [
-      'Android',
-      'Java',
-      'Kotlin',
-      'XML',
-      'Node Js',
-      'Cloud Firestore',
-      'Firebase',
-      'Figma',
-    ],
-    doc: 'https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/WhatsApp%20Image%202023-05-05%20at%2012.07.39%20AM.jpeg?alt=media&token=9f0e1648-568b-422d-bd0b-1f125f722245',
+    role: 'Software Developer',
+    company: 'Theorist World',
+    date: 'May 2015 - Oct 2016',
+    desc: 'Developed and maintained responsive and visually appealing web applications using HTML5, CSS3, and JavaScript, ensuring cross-browser compatibility and accessibility.',
+    skills: ['HTML', 'CSS', 'JavaScript'],
+    doc: 'https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/Screenshot%20from%202023-05-28%2023-20-46.png?alt=media&token=5570f995-e8f4-4f12-bb2f-73bcf4b20730',
   },
 ]
 
@@ -319,7 +266,7 @@ export const projects = [
     id: 17,
     title: 'Pizza House',
     description:
-      'Responsive pizza restaurant food ordering app UI design using React and Next.js in addition to Admin dashboard functionality.',
+      'Developed Pizza House, an online pizza ordering platform, utilizing React,Redux Toolkit, Next.js, MongoDB, Axios, Cloudinary, and used Paypal for payment gateway. Designed an admin dashboard for order management, integrated Cloudinary for media, and Paypal for secure payments.',
     image: pizzaHouseImg,
     tags: [
       'React Js',
@@ -336,7 +283,7 @@ export const projects = [
     id: 16,
     title: 'BookNStay',
     description:
-      'A MERN stack App, From take off to landing and everything in between - book your whole trip with us. Best Price Guarantee. Great Availability. Get Instant Confirmation. Read Real Guest Reviews just like Booking.com. Built client side app with backend app in addition to Admin dashboard functionality.',
+      '"BookNStay" is a comprehensive MERN (MongoDB, Express.js, React, Node.js) stack travel application designed to provide users with a seamless and feature-rich platform for planning, booking, and managing their travel experiences. Inspired by the user-friendly functionalities of industry leaders like Booking.com, this application offers a dynamic client-side app coupled with a robust backend and an intuitive admin dashboard for efficient management.',
     image: bookNStayImg,
     tags: [
       'React Js',
@@ -356,7 +303,7 @@ export const projects = [
     id: 14,
     title: 'Jobster',
     description:
-      'Using this app, you can manage your jobs list in very easy manner. You can add, update and delete your jobs. Also you can view all your jobs and filter them using different job types, status, etc.',
+      'It is a user-friendly job management application designed to simplify the task of organizing and tracking job-related activities. With seamless features for adding, updating, and deleting jobs, as well as robust filtering options based on job types, status, location, company, position and more, Jobster offers an efficient and intuitive solution for individuals to manage their professional engagements.',
     image: jobImg,
     tags: [
       'React Js',
@@ -376,7 +323,7 @@ export const projects = [
     id: 0,
     title: 'Admin Dashboard',
     description:
-      'This application consists of Light and Dark Mode, 4 different Charts, 3 different Data Table Pages, FAQ Page, Form Page, and Calendar Integration.',
+      'Building a sophisticated and feature-rich admin dashboard using React components, managing state and data flow, integrating external libraries for UI components and charts, handling form input and validation, and incorporating calendar functionality.  The dashboard will serve as a central hub for managing data, visualizing key metrics, and facilitating user interactions in a sleek and responsive interface. The application will support both Light and Dark Modes for user customization.',
     image: dashboardImg,
     tags: [
       'React Js',
@@ -395,7 +342,7 @@ export const projects = [
     id: 6,
     title: 'SocialChat',
     description:
-      'A MERN stack App, where you can connect with friends, follow or unfollow friends, share a new post, etc just like Facebook.',
+      'SocialChat is a full-stack web application built using the MERN stack (MongoDB, Express.js, React.js, Node.js) that provides users with a platform to connect with friends, follow or unfollow other users, share posts, and engage in social interactions similar to Facebook.',
     image: chatImg,
     tags: [
       'React Js',
@@ -412,18 +359,18 @@ export const projects = [
     id: 18,
     title: 'Blog App',
     description:
-      'Built the application to manage posts using NextJS, React, MongoDB.',
+      'The Blog App is a dynamic web application designed to manage and display blog posts. Developed using React.js and Next.js for the frontend and MongoDB for the backend, this project combines cutting-edge technologies to create a seamless and efficient blogging experience.',
     image: nextJSBlogImg,
     tags: ['React Js', 'Next.js', 'MongoDb'],
     category: 'nextjs app',
-    github: 'https://github.com/amehta7/NextJS_Blog_App',
+    github: 'https://github.com/amehta7/Blog-App',
     webapp: 'https://next-js-blog-qi7casiez-a-b-patels-projects.vercel.app/',
   },
   {
     id: 19,
     title: 'Lyrical App',
     description:
-      'Built the application to manage songs in which user can view the all songs, add songs, add lyrics to any song and like the lyric with React, GraphQL, Node.js, Express.js, MongoDB.',
+      'The Lyrical App is a music management application designed to give users the ability to explore a collection of songs, add new songs, attach lyrics to each song, and express their appreciation by liking lyrics. Developed with a tech stack comprising React, GraphQL, Node.js, Express.js, and MongoDB, this project combines powerful frontend and backend technologies for a seamless and engaging user experience.',
     image: LyricalImg,
     tags: [
       'React Js',
@@ -441,7 +388,8 @@ export const projects = [
   {
     id: 7,
     title: 'Netflix-clone-App',
-    description: 'A Netflix-clone-App.',
+    description:
+      'The Netflix Clone App is a web application designed to mimic the user interface and functionality of the popular streaming platform Netflix. Leveraging the power of React.js, MongoDB, Node.js, Express.js, Firebase, Styled-components, and Axios, this project provides users with a visually appealing and feature-rich platform for browsing and streaming video content.',
     image: netflixImg,
     tags: [
       'React Js',
@@ -458,7 +406,8 @@ export const projects = [
   {
     id: 8,
     title: 'TicketTracker',
-    description: 'MERN stack application to manage the ticket services.',
+    description:
+      'TicketTracker is a comprehensive MERN stack application designed to efficiently manage ticket services. Leveraging React.js for dynamic user interfaces, MongoDB for data storage, Node.js and Express.js for the backend, Redux for state management, Axios for HTTP requests, and React-Toastify for user notifications, this project delivers a streamlined solution for handling ticket-related services.',
     image: ticket2,
     tags: [
       'React Js',
@@ -475,7 +424,8 @@ export const projects = [
   {
     id: 10,
     title: 'Eshop',
-    description: 'MERN stack application.',
+    description:
+      'Developed a feature-rich e-commerce platform, Eshop, using the MERN stack with Admin functionality to provide a seamless online shopping experience. Leveraging React.js for the frontend, MongoDB for data storage, Node.js and Express.js for the backend, and incorporating technologies such as JWT, Redux, Material UI, Fetch API, and React-Toastify, this project delivers a feature-rich e-commerce platform.',
     image: eshopMernImg,
     tags: [
       'React Js',
@@ -489,13 +439,13 @@ export const projects = [
       'React-Toastify',
     ],
     category: 'mern app',
-    github: 'https://github.com/amehta7/Eshop_App_Frontend',
+    github: 'https://github.com/amehta7/Eshop',
   },
   {
     id: 11,
     title: 'ComfySloth',
     description:
-      'Check out our products for the very best in unique or custom, handmade pieces from our shops.',
+      'Designed and developed ComfySloth, an e-commerce platform using React.js. Leveraged Axios for seamless data fetching, Styled-Components for a modern and visually appealing UI, Auth0 for secure user authentication, Stripe for payment processing, and React-icons for enhanced visual elements to provide a seamless online shopping experience.',
     image: comfyImg,
     tags: [
       'React Js',
@@ -512,12 +462,14 @@ export const projects = [
   {
     id: 1,
     title: 'TinyThoughts',
-    description: 'Micro-blog application.',
+    description:
+      'A dynamic micro-blog application that seamlessly integrated React, React Router, and Redux. The project involved building a user-friendly interface to allow users to create, browse, and manage posts across different categories. Core features included user authentication, post sorting by category and author, post creation, and deletion.',
     image: tinyImg,
     tags: [
       'React Js',
       'Redux',
-      'FetchAPI',
+      'React Router',
+      'Fetch API',
       'MongoDb',
       'Node Js',
       'Express Js',
@@ -531,7 +483,8 @@ export const projects = [
   {
     id: 13,
     title: 'VanLife',
-    description: 'Create a Travel Van Rental App with React + Vite.',
+    description:
+      'Travel Van Rental App - Rent the perfect van to make your perfect road trip. VanLife is a basic React application built to demonstrate the use of React Router v6 developed using React.js and Vite. The project incorporates the latest version of React Router (v6) for seamless navigation, Mirage.js for mock API development, and Vite for a swift development environment.',
     image: vanImg,
     tags: ['React Js', 'React Router', 'Mirage.JS', 'Vite'],
     category: 'react app',
@@ -540,9 +493,9 @@ export const projects = [
   },
   {
     id: 12,
-    title: 'Search_GithubUser',
+    title: 'GitHub Explorer',
     description:
-      "In this project, you can search any github user and view user's info like repos, followers, etc.",
+      'GitHub Explorer is a dynamic web application developed with React.js, Axios, Styled-Components, Auth0, FusionCharts, and React-icons. This project allows users to effortlessly search for any GitHub user and view comprehensive information about their repositories, followers, and more.',
     image: gitImg,
     tags: [
       'React Js',
@@ -553,7 +506,7 @@ export const projects = [
       'React-icons',
     ],
     category: 'react app',
-    github: 'https://github.com/amehta7/Search_GithubUser',
+    github: 'https://github.com/amehta7/GitHub-Explorer',
     webapp: 'https://searchgithubusers-react.netlify.app/',
   },
   {
@@ -580,7 +533,7 @@ export const projects = [
     id: 21,
     title: 'GraphQL Chat',
     description:
-      'Built application in which user can chat with friends with React, GraphQL, Node.js, Express.js, MySQL. It uses Apollo Server with Express, and GraphQL-Request and Apollo Client as GraphQL clients. The application is used to explain queries, mutations, custom object types, authentication, etc. It shows how to use subscriptions with Apollo Server for Express, Apollo Client, and GraphQL-WS.',
+      'The GraphQL Chat Application is a web platform that enables users to engage in real-time conversations with friends. This project, crafted with React.js, Node.js, Express.js, GraphQL, and MySQL, showcases a rich set of features to demonstrate fundamental GraphQL concepts. Employing Apollo Server with Express, GraphQL-Request, Apollo Client, and GraphQL-WS for subscriptions, this application serves as an instructive resource, guiding users through queries, mutations, custom object types, authentication, and the implementation of real-time updates.',
     image: GraphqlChatImg,
     tags: [
       'React Js',
@@ -599,7 +552,8 @@ export const projects = [
   {
     id: 9,
     title: 'Events_App',
-    description: 'MERN stack application to manage the event services.',
+    description:
+      'The Events Management Application is a robust MERN stack project designed to streamline and manage event services. The project incorporates React.js for the frontend, the latest version of React Router (v6) for seamless navigation, Node.js and Express.js for the backend, and MongoDB for data storage, this application offers a comprehensive solution for organizing and overseeing events.',
     image: eventImg,
     tags: ['React Js', 'MongoDb', 'Node Js', 'Express Js', 'JWT'],
     category: 'mern app',
@@ -608,7 +562,8 @@ export const projects = [
   {
     id: 2,
     title: 'Foody API',
-    description: 'Developed a back-end application.',
+    description:
+      'Designed and implemented the Foody API, a robust back-end application built using Node.js, Express.js, and MongoDB. This API serves as a versatile and efficient solution for recipe tracking, allowing users to register accounts, create recipes, add ingredients, and manage their profiles.',
     image:
       'https://ae01.alicdn.com/kf/Hb2aefc02adff4e999470c3216a328e45P.jpg_640x640q90.jpg',
     tags: ['MongoDb', 'Node Js', 'Express Js', 'JWT'],
@@ -618,28 +573,30 @@ export const projects = [
   {
     id: 3,
     title: 'Eshop API',
-    description: 'Developed a back-end application.',
+    description:
+      'Designed a powerful and scalable back-end application using Node.js, Express.js, and MongoDB. This RESTful API is tailored for eCommerce purposes, featuring essential functionalities such as user authentication, address management, order creation, and comprehensive product management. The use of JWT (JSON Web Tokens) ensures secure authentication, making it a robust solution for powering eCommerce applications.',
     image:
       'https://i0.wp.com/mercadoeconsumo.com.br/wp-content/uploads/2020/06/Faturamento-do-e-commerce-cresce.jpg?fit=1200%2C800&ssl=1',
     tags: ['MongoDb', 'Node Js', 'Express Js', 'JWT'],
     category: 'api',
-    github: 'https://github.com/amehta7/Eshop_App_Backend',
+    github: 'https://github.com/amehta7/Eshop_API',
   },
   {
     id: 4,
     title: 'Todo API',
     description:
-      'Developed a back-end application with TypeScript. You can view different tasks available and add a task and also remove the task from the list.',
+      'The Todo API is a back-end application developed using TypeScript, Node.js, and Express.js, designed for efficient task management. This API allows users to interact with a list of tasks by viewing existing tasks, adding new tasks, and removing tasks from the list. Developed with TypeScript, the application ensures type safety and provides a robust foundation for building scalable and maintainable task management systems.',
     image:
-      'https://res.cloudinary.com/practicaldev/image/fetch/s--nBZYQZfN--/c_imagga_scale,f_auto,fl_progressive,h_500,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/in7r7auvg6xujj5fm1gm.png',
+      'https://camo.githubusercontent.com/fb698c0975927b6548ac1ce69e496e86f27e09df0fb7b7f4b3b0bd943cd38fc5/68747470733a2f2f7265732e636c6f7564696e6172792e636f6d2f69636874726f6a616e2f696d6167652f75706c6f61642f76313537343935383337332f53637265656e73686f745f323031392d31312d32385f61745f31372e32322e32355f6779656764722e706e67',
     tags: ['TypeScript', 'Node Js', 'Express Js'],
     category: 'api',
-    github: 'https://github.com/amehta7/Todo_App',
+    github: 'https://github.com/amehta7/Todo_API',
   },
   {
     id: 15,
     title: 'Meetups',
-    description: 'You can view different meetups and add a new meetup.',
+    description:
+      'Meetups is a project crafted to showcase the capabilities of Next.js, featuring a dynamic web application for viewing and adding meetups. Developed using Next.js, React, and MongoDB, this project leverages the advantages of server-side rendering and a modern frontend framework to provide a seamless and interactive experience for users interested in exploring or organizing meetups.',
     image: meetupImg,
     tags: ['Next JS', 'MongoDb', 'React'],
     category: 'nextjs app',
@@ -649,7 +606,7 @@ export const projects = [
     id: 5,
     title: 'Todo App',
     description:
-      'Developed a front-end application with TypeScript. You can view different tasks available and add a task and also remove the task from the list.',
+      'The Todo App is a front-end application developed with React and TypeScript which allows users to interact with a list of tasks by viewing existing tasks, adding new tasks, and removing tasks from the list. The use of TypeScript ensures type safety, enhancing code quality and developer productivity.',
     image:
       'https://reactjsexample.com/content/images/2023/04/code_2023-08-22-41-22.jpg',
     tags: ['React', 'TypeScript'],
