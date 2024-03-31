@@ -12,6 +12,7 @@ import Projects from './components/Projects'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import ProjectDetails from './components/ProjectDetails'
+import Certificates from './components/Certificates'
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -50,6 +51,7 @@ function App() {
           </Wrapper>
           <Projects openModal={openModal} setOpenModal={setOpenModal} />
           <Wrapper>
+            <Certificates />
             <Education />
             <Contact />
           </Wrapper>

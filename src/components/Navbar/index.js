@@ -184,6 +184,7 @@ const Navbar = () => {
           <NavLink href='#skills'>Skills</NavLink>
           <NavLink href='#experience'>Experience</NavLink>
           <NavLink href='#projects'>Projects</NavLink>
+          <NavLink href='#certificates'>Certificates</NavLink>
           <NavLink href='#education'>Education</NavLink>
           <NavLink href='#contact'>Contact</NavLink>
         </NavItems>
@@ -226,6 +227,14 @@ const Navbar = () => {
               }}
             >
               Projects
+            </MobileLink>
+            <MobileLink
+              href='#certificates'
+              onClick={() => {
+                setOpen(!open)
+              }}
+            >
+              Certificates
             </MobileLink>
             <MobileLink
               href='#education'

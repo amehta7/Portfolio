@@ -207,7 +207,6 @@ export const experiences = [
     date: 'Nov 2016 - May 2021',
     desc: 'Working on Flipr Platforms, managing DevOps, and streamlining the process with automation.',
     skills: ['Team Leader', 'Customer Relationship'],
-    doc: 'https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ',
   },
   {
     id: 1,
@@ -216,28 +215,37 @@ export const experiences = [
     date: 'May 2015 - Oct 2016',
     desc: 'Developed and maintained responsive and visually appealing web applications using HTML5, CSS3, and JavaScript, ensuring cross-browser compatibility and accessibility.',
     skills: ['HTML', 'CSS', 'JavaScript'],
-    doc: 'https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/Screenshot%20from%202023-05-28%2023-20-46.png?alt=media&token=5570f995-e8f4-4f12-bb2f-73bcf4b20730',
   },
 ]
 
 export const certificates = [
   {
     id: 0,
-    role: 'Assistant Manager',
-    company: 'Axis Bank',
-    date: 'Nov 2016 - May 2021',
-    desc: 'Working on Flipr Platforms, managing DevOps, and streamlining the process with automation.',
-    skills: ['Team Leader', 'Customer Relationship'],
-    doc: 'https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ',
+    role: 'React Certificate',
+    company: 'HackerRank',
+    date: 'Nov 2022',
+    doc: 'https://www.hackerrank.com/certificates/de53c99b18dc?trk=public_profile_see-credential',
   },
   {
     id: 1,
-    role: 'Software Developer',
-    company: 'Theorist World',
-    date: 'May 2015 - Oct 2016',
-    desc: 'Developed and maintained responsive and visually appealing web applications using HTML5, CSS3, and JavaScript, ensuring cross-browser compatibility and accessibility.',
-    skills: ['HTML', 'CSS', 'JavaScript'],
-    doc: 'https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/Screenshot%20from%202023-05-28%2023-20-46.png?alt=media&token=5570f995-e8f4-4f12-bb2f-73bcf4b20730',
+    role: 'Front End Development Libraries',
+    company: 'freeCodeCamp',
+    date: 'Aug 2022',
+    doc: 'https://www.freecodecamp.org/certification/fccefc6d8cd-561c-42b6-8201-5d271d04896b/front-end-development-libraries?trk=public_profile_see-credential',
+  },
+  {
+    id: 2,
+    role: 'JavaScript Algorithms and Data Structures',
+    company: 'freeCodeCamp',
+    date: 'June 2022',
+    doc: 'https://www.freecodecamp.org/certification/fccefc6d8cd-561c-42b6-8201-5d271d04896b/javascript-algorithms-and-data-structures?trk=public_profile_see-credential',
+  },
+  {
+    id: 3,
+    role: 'Responsive Web Design',
+    company: 'freeCodeCamp',
+    date: 'May 2022',
+    doc: 'https://www.freecodecamp.org/certification/fccefc6d8cd-561c-42b6-8201-5d271d04896b/responsive-web-design?trk=public_profile_see-credential',
   },
 ]
 
