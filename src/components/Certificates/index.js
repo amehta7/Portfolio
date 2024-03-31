@@ -2,10 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import Timeline from '@mui/lab/Timeline'
 import TimelineItem from '@mui/lab/TimelineItem'
-import TimelineSeparator from '@mui/lab/TimelineSeparator'
-import TimelineConnector from '@mui/lab/TimelineConnector'
 import TimelineContent from '@mui/lab/TimelineContent'
-import TimelineDot from '@mui/lab/TimelineDot'
 import { certificates } from '../../data/constants'
 import CertificateCard from '../Cards/CertificateCard'
 
@@ -49,17 +46,6 @@ const Title = styled.div`
   }
 `
 
-const Desc = styled.div`
-  font-size: 18px;
-  text-align: center;
-  max-width: 600px;
-  color: ${({ theme }) => theme.text_secondary};
-  @media screen and (max-width: 768px) {
-    margin-top: 12px;
-    font-size: 16px;
-  }
-`
-
 const TimelineSection = styled.div`
   width: 100%;
   max-width: 1000px;
@@ -76,21 +62,11 @@ const Certificates = () => {
     <Container id='certificates'>
       <Wrapper>
         <Title>Certificates</Title>
-        {/*<Desc>
-          My work experience as a software engineer and working on different
-          companies and projects.
-        </Desc>*/}
+
         <TimelineSection>
           <Timeline>
             {certificates.map((certificate, index) => (
               <TimelineItem key={index}>
-                {/*<TimelineSeparator>
-                  <TimelineDot variant='outlined' color='secondary' />
-                  {index !== certificates.length - 1 && (
-                    <TimelineConnector style={{ background: '#854CE6' }} />
-                  )}
-                </TimelineSeparator>
-                */}
                 <TimelineContent sx={{ py: '12px', px: 2 }}>
                   <CertificateCard certificate={certificate} />
                 </TimelineContent>

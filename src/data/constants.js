@@ -32,10 +32,7 @@ export const Bio = {
   github: 'https://github.com/amehta7',
   resume:
     'https://drive.google.com/file/d/1ffZrcMcn8UatXGIaautbbqpV7ADNaETA/view?usp=sharing',
-  linkedin: 'https://www.linkedin.com/in/rishav-chanda-b89a791b3/',
-  twitter: 'https://twitter.com/RishavChanda',
-  insta: 'https://www.instagram.com/rishav_chanda/',
-  facebook: 'https://www.facebook.com/rishav.chanda.165/',
+  linkedin: 'https://www.linkedin.com/in/ami-m-4b305a130/',
 }
 
 export const skills = [
@@ -205,15 +202,20 @@ export const experiences = [
     role: 'Assistant Manager',
     company: 'Axis Bank',
     date: 'Nov 2016 - May 2021',
-    desc: 'Working on Flipr Platforms, managing DevOps, and streamlining the process with automation.',
-    skills: ['Team Leader', 'Customer Relationship'],
+    desc: 'Embarked on a dynamic journey at Axis Bank, starting as an Executive in Personal Loan Processing, where meticulous document verification and credit history assessment ensured compliant and efficient loan processing. Elevated to the role of Customer Relationship Executive, handling inquiries and resolving escalated issues within 24 hours, resulting in a notable 3-4% company growth and implementing retention strategies leading to a 5% improvement in customer retention ratio. Progressed to Assistant Manager in Gold Loan Operations, leading a team in gold loan processing. Leveraged expertise in collateral assessment and operational management to enhance efficiency and customer satisfaction.',
+    skills: [
+      'Leadership',
+      'Gold Loan Operations',
+      'Personal Loan Processing',
+      'Customer Relationship',
+    ],
   },
   {
     id: 1,
     role: 'Software Developer',
     company: 'Theorist World',
     date: 'May 2015 - Oct 2016',
-    desc: 'Developed and maintained responsive and visually appealing web applications using HTML5, CSS3, and JavaScript, ensuring cross-browser compatibility and accessibility.',
+    desc: 'Developed and maintained responsive and visually appealing web applications using HTML5, CSS3, and JavaScript, ensuring cross-browser compatibility and accessibility. Collaborated closely with project managers, designers, and clients to translate design mockups and wireframes into interactive and functional web interfaces.Conducted thorough testing and debugging of web applications, identifying and resolving issues related to functionality, performance, and user experience.',
     skills: ['HTML', 'CSS', 'JavaScript'],
   },
 ]
