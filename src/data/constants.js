@@ -17,6 +17,7 @@ import nextJSBlogImg from '../components/images/NextJSBlogApp.jpg'
 import LyricalImg from '../components/images/LyricalImg.jpg'
 import GraphqlChatImg from '../components/images/graphqlChatImg.jpg'
 import JobBoardImg from '../components/images/JobBoardImage.jpg'
+import ResumePDF from '../components/Doc/AmiCV.pdf'
 
 export const Bio = {
   name: 'Ami Mehta',
@@ -30,8 +31,7 @@ export const Bio = {
   description:
     'I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.',
   github: 'https://github.com/amehta7',
-  resume:
-    'https://drive.google.com/file/d/1ffZrcMcn8UatXGIaautbbqpV7ADNaETA/view?usp=sharing',
+  resume: ResumePDF || '',
   linkedin: 'https://www.linkedin.com/in/ami-m-4b305a130/',
 }
 
