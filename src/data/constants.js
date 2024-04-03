@@ -13,7 +13,8 @@ import jobImg from '../components/images/jobImg.jpg'
 import meetupImg from '../components/images/meetupImg.jpg'
 import bookNStayImg from '../components/images/bookNStayImg.jpg'
 import pizzaHouseImg from '../components/images/pizza_house.jpg'
-import nextJSBlogImg from '../components/images/NextJSBlogApp.jpg'
+//import nextJSBlogImg from '../components/images/NextJSBlogApp.jpg'
+import nextJSBlogImg from '../components/images/blognextjs.jpg'
 import LyricalImg from '../components/images/LyricalImg.jpg'
 import GraphqlChatImg from '../components/images/graphqlChatImg.jpg'
 import JobBoardImg from '../components/images/JobBoardImage.jpg'
@@ -262,7 +263,7 @@ export const education = [
   },
   {
     id: 1,
-    img: 'http://www.gecgh.cteguj.in/uploads/5882/GECG_logo.png',
+    img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYeoPENpw0KQ6icxAS6Umv_VAXuECDePeoybqPdqqfbFUSibq64KZkbsbtJV-Wh3bNYt0&usqp=CAU',
     school: 'Government Engineering College, Gandhinagar',
     date: 'July 2011 - May 2015',
     grade: '7.77 CGPA',
