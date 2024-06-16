@@ -27,7 +27,6 @@ export const Bio = {
     'Front-End Developer',
     'MERN Stack Developer',
     'Full Stack Developer',
-    'UI/UX Designer',
   ],
   description:
     'I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.',
@@ -216,12 +215,34 @@ export const experiences = [
     role: 'Software Developer',
     company: 'Theorist World',
     date: 'May 2015 - Oct 2016',
-    desc: 'Developed and maintained responsive and visually appealing web applications using HTML5, CSS3, and JavaScript, ensuring cross-browser compatibility and accessibility. Collaborated closely with project managers, designers, and clients to translate design mockups and wireframes into interactive and functional web interfaces.Conducted thorough testing and debugging of web applications, identifying and resolving issues related to functionality, performance, and user experience.',
-    skills: ['HTML', 'CSS', 'JavaScript'],
+    desc: 'Developed and maintained responsive and visually appealing web applications using HTML5, CSS3,JavaScript, React, etc ensuring cross-browser compatibility and accessibility. Collaborated closely with project managers, designers, and clients to translate design mockups and wireframes into interactive and functional web interfaces.Conducted thorough testing and debugging of web applications, identifying and resolving issues related to functionality, performance, and user experience.',
+    skills: ['HTML', 'CSS', 'JavaScript', 'React', 'Node.js', 'MySQL'],
+  },
+  {
+    id: 2,
+    role: 'Software Developer Intern',
+    company: 'Crucial Software and IT Park Pvt Ltd (CSITPARK)',
+    date: 'Jul 2014 - Apr 2015',
+    desc: 'Utilized HTML5, CSS3, ASP.NET, C# and MySQL to develop interactive and user-friendly web applications. Worked collaboratively with the development team to design and implement new features for the event management product. Conducted comprehensive testing and debugging to ensure the functionality and reliability of the product.',
+    skills: ['HTML', 'CSS', 'ASP.NET', 'C#', 'MySQL'],
   },
 ]
 
 export const certificates = [
+  {
+    id: 4,
+    role: 'Learning Python',
+    company: 'LinkedIn',
+    date: 'June 2024',
+    doc: 'https://www.linkedin.com/learning/certificates/2c8cc98d9e5766be3b0141514454bbe62698ac9d51d2222ed960e6657632e102',
+  },
+  {
+    id: 5,
+    role: 'Django Essential Training',
+    company: 'LinkedIn',
+    date: 'June 2024',
+    doc: 'https://www.linkedin.com/learning/certificates/a263bd16b81f340ea0456d135ca32a8261a0de4fbae080b34155ef4a977f5ef5',
+  },
   {
     id: 0,
     role: 'React Certificate',
@@ -468,7 +489,6 @@ export const projects = [
     ],
     category: 'react app',
     github: 'https://github.com/amehta7/ComfySloth',
-    webapp: 'https://comfyslothapp.netlify.app/',
   },
   {
     id: 1,

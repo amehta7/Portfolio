@@ -105,7 +105,7 @@ const Footer = () => {
             <GitHubIcon />
           </SocialMediaIcon>
         </SocialMediaIcons>
-        <Copyright>&copy; 2023 Ami Mehta. All rights reserved.</Copyright>
+        <Copyright>&copy; 2024 Ami Mehta. All rights reserved.</Copyright>
       </FooterWrapper>
     </FooterContainer>
   )
