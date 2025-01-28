@@ -201,7 +201,7 @@ export const experiences = [
     id: 0,
     role: 'Software Engineer Intern',
     company: 'Diffusive.AI',
-    date: 'Jul 2024 - Present',
+    date: 'Jul 2024 - Nov 2024',
     desc: 'Joined the early engineering team and contributed to the development of AI-driven educational tools and interactive game features, enhancing tech literacy for non-tech users. Collaborated closely with the product team to gather and define product requirements, ensuring alignment with educational goals and user needs and design team to create wireframes, translating conceptual designs into functional user interfaces that improve usability. Utilized Next.js, TypeScript, MongoDB, Python, Flask framework for innovative solutions and quality assurance, ensuring high software reliability and ongoing improvements.',
     skills: [
       'React',
@@ -214,7 +214,16 @@ export const experiences = [
     ],
   },
   {
-    id: 1,
+     id: 1,
+    role: 'Full Stack Developer',
+    company: 'Theorist World',
+    date: 'Feb 2022 - June 2024',
+    desc: 'Engineered high-performance, scalable web applications using React.js, Node.js, Express.js, and MongoDB for diverse industries. Developed and optimized a comprehensive Inventory Management system for US Based healthcare organization, streamlining
+operations and enhancing system integration.',
+    skills: ['HTML', 'CSS', 'JavaScript', 'React', 'Node.js', 'Express.js', 'Redux Toolkit', 'MongoDB', 'MySQL'],
+  },
+  {
+    id: 2,
     role: 'Assistant Manager',
     company: 'Axis Bank',
     date: 'Nov 2016 - May 2021',
@@ -227,7 +236,7 @@ export const experiences = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     role: 'Software Developer',
     company: 'Theorist World',
     date: 'May 2015 - Oct 2016',
@@ -235,7 +244,7 @@ export const experiences = [
     skills: ['HTML', 'CSS', 'JavaScript', 'React', 'Node.js', 'MySQL'],
   },
   {
-    id: 3,
+    id: 4,
     role: 'Software Developer Intern',
     company: 'Crucial Software and IT Park Pvt Ltd (CSITPARK)',
     date: 'Jul 2014 - Apr 2015',
