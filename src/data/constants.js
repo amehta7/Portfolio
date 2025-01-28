@@ -218,8 +218,7 @@ export const experiences = [
     role: 'Full Stack Developer',
     company: 'Theorist World',
     date: 'Feb 2022 - June 2024',
-    desc: 'Engineered high-performance, scalable web applications using React.js, Node.js, Express.js, and MongoDB for diverse industries. Developed and optimized a comprehensive Inventory Management system for US Based healthcare organization, streamlining
-operations and enhancing system integration.',
+    desc: 'Engineered high-performance, scalable web applications using React.js, Node.js, Express.js, and MongoDB for diverse industries. Developed and optimized a comprehensive Inventory Management system for US Based healthcare organization, streamlining operations and enhancing system integration.',
     skills: ['HTML', 'CSS', 'JavaScript', 'React', 'Node.js', 'Express.js', 'Redux Toolkit', 'MongoDB', 'MySQL'],
   },
   {
