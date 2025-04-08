@@ -197,8 +197,23 @@ export const skills = [
 ]
 
 export const experiences = [
-  {
+   {
     id: 0,
+    role: 'Software Engineer',
+    company: 'FlairX',
+    date: 'Mar 2025 - Present',
+    desc: 'Played a pivotal role in developing the Interview-as-a-Service platform, specifically building the Interviewer, Company, Candidate, and Admin platforms to streamline the interview process. Utilized React, TypeScript, PostgreSQL, Node.js, and Express.js to design scalable solutions that enhance efficiency, reduce complexity, and ensure seamless interactions between all stakeholders in the interview process.',
+    skills: [
+      'React',
+      'TypeScript',
+      'Tailwind CSS',
+      'PostgreSQL', 
+      'Node.js', 
+      'Express.js'
+    ],
+  },
+  {
+    id: 1,
     role: 'Software Engineer Intern',
     company: 'Diffusive.AI',
     date: 'Jul 2024 - Nov 2024',
@@ -214,15 +229,15 @@ export const experiences = [
     ],
   },
   {
-     id: 1,
+     id: 2,
     role: 'Full Stack Developer',
     company: 'Theorist World',
-    date: 'Feb 2022 - June 2024',
+    date: 'Feb 2022 - Feb 2025',
     desc: 'Engineered high-performance, scalable web applications using React.js, Node.js, Express.js, and MongoDB for diverse industries. Developed and optimized a comprehensive Inventory Management system for US Based healthcare organization, streamlining operations and enhancing system integration.',
     skills: ['HTML', 'CSS', 'JavaScript', 'React', 'Node.js', 'Express.js', 'Redux Toolkit', 'MongoDB', 'MySQL'],
   },
   {
-    id: 2,
+    id: 3,
     role: 'Assistant Manager',
     company: 'Axis Bank',
     date: 'Nov 2016 - May 2021',
@@ -235,7 +250,7 @@ export const experiences = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     role: 'Software Developer',
     company: 'Theorist World',
     date: 'May 2015 - Oct 2016',
@@ -243,7 +258,7 @@ export const experiences = [
     skills: ['HTML', 'CSS', 'JavaScript', 'React', 'Node.js', 'MySQL'],
   },
   {
-    id: 4,
+    id: 5,
     role: 'Software Developer Intern',
     company: 'Crucial Software and IT Park Pvt Ltd (CSITPARK)',
     date: 'Jul 2014 - Apr 2015',
