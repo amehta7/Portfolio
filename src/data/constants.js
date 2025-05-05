@@ -18,7 +18,7 @@ import nextJSBlogImg from '../components/images/blognextjs.jpg'
 import LyricalImg from '../components/images/LyricalImg.jpg'
 import GraphqlChatImg from '../components/images/graphqlChatImg.jpg'
 import JobBoardImg from '../components/images/JobBoardImage.jpg'
-import ResumePDF from '../components/Doc/AmiCV.pdf'
+import ResumePDF from '../components/Doc/AmiMehtaCV.pdf'
 
 export const Bio = {
   name: 'Ami Mehta',
